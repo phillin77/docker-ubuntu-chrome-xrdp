@@ -102,6 +102,7 @@ RUN apt update && apt -y full-upgrade && apt install -y \
   libxss1 \
   lsb-release \
   xdg-utils \
+  libappindicator3-1 \
   $ADDITIONAL_PACKAGES \
   && \
   rm -rf /var/cache/apt /var/lib/apt/lists && \
