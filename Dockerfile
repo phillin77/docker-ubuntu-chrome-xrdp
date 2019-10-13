@@ -91,6 +91,17 @@ RUN apt update && apt -y full-upgrade && apt install -y \
   xfce4-terminal \
   xfce4-xkb-plugin \
   xprintidle \
+  libappindicator1 \
+  fonts-liberation \
+  dbus-x11 \
+  xfonts-base \
+  xfonts-100dpi \
+  xfonts-75dpi \
+  xfonts-cyrillic \
+  xfonts-scalable \
+  libxss1 \
+  lsb-release \
+  xdg-utils \
   $ADDITIONAL_PACKAGES \
   && \
   rm -rf /var/cache/apt /var/lib/apt/lists && \
